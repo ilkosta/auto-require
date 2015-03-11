@@ -1,0 +1,16 @@
+{
+  "name": "auto-require",
+  "version": "1.0.0",
+  "description": "don't use it, really",
+  "main": "lib/auto-require.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -o lib/auto-require.js auto-require.es"
+  },
+  "keywords": ["require"],
+  "author": "Costantino Giuliodori (ilkosta)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^4.7.8"
+  }
+}
